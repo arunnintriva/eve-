@@ -35,7 +35,7 @@ body {
 }
 .logo:active,
 .logo:hover {
-    color: #f79f09;
+    color: #115fd4;
     transition: all 0.3s;
 }
 /****************************/
@@ -69,7 +69,7 @@ body {
 }
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-    color: #f79f09;
+    color: #115fd4;
 }
 /****************************/
 /*    NAVIGATION SECTION    */
