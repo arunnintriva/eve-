@@ -19,14 +19,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #fff9f5;
+    /* background-color: #fff9f5; */
     height: 9.2rem;
     padding: 0 4.2rem;
     overflow: hidden;
     top: 0;
     position: fixed;
     width: 100%;
-    /* background-color: #1d232b; */
+    background-color: #1d232b;
     height: 4rem;
 }
 .logo {
@@ -41,13 +41,11 @@ body {
 /****************************/
 /*    NAVIGATION SECTION    */
 /****************************/
-/* .header {
 
-} */
 .main-nav-list {
     display: flex;
     list-style: none;
-    gap: 3.2rem;
+    /* gap: 3.2rem; */
 }
 .main-nav-link:link,
 .main-nav-link:visited {
@@ -73,6 +71,46 @@ body {
 .main-nav-link.nav-cta:active {
     color: #f79f09;
 }
-/* .primary-heading {
-    color: blue;
+/****************************/
+/*    NAVIGATION SECTION    */
+/****************************/
+
+/****************************/
+/*       HERO SECTION       */
+/****************************/
+.section-main-block {
+    background-color: #000000;
+    padding: 7.8rem 0 9.6rem 0;
+    background-image: url(images/events/social1.jpg);
+    height: 100rem;
+    /* background-position: top left;
+    animation: mymove 9s infinite; */
+}
+/* @keyframes mymove {
+    50% {
+        background-position: center;
+    }
 } */
+.main-block {
+    max-width: 160rem;
+    margin: 0 auto;
+    padding: 28.8rem 3.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 9.6rem;
+}
+.main-block-img {
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-block-description {
+    color: #fff;
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 4.8rem;
+}
