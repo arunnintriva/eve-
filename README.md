@@ -1,2 +1,2 @@
-# eve-
+# eve
 Event management organization
