@@ -26,7 +26,7 @@ body {
     top: 0;
     position: fixed;
     width: 100%;
-    background-color: #1d232b;
+    background-color: #1d232b00;
     height: 4rem;
 }
 .logo {
@@ -82,7 +82,7 @@ body {
     background-color: #000000;
     padding: 7.8rem 0 9.6rem 0;
     background-image: url(images/events/social1.jpg);
-    height: 100rem;
+    height: 86rem;
     /* background-position: top left;
     animation: mymove 9s infinite; */
 }

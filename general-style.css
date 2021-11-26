@@ -137,12 +137,12 @@ strong {
     outline: none;
     border-radius: 25px;
     transition: all 0.5s ease-in-out;
-    background-color: #1d232b;
+    background-color: #1d232b00;
     padding-right: 40px;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 .input-search::placeholder {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(252, 252, 252, 0.897);
     font-size: 15px;
     letter-spacing: 2px;
     font-weight: 100;
