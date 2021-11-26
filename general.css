@@ -1,3 +1,78 @@
-.primary-heading {
-    color: blue;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "Rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+}
+/****************************/
+/*       HEADER SECTION     */
+/****************************/
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff9f5;
+    height: 9.2rem;
+    padding: 0 4.2rem;
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    /* background-color: #1d232b; */
+    height: 4rem;
+}
+.logo {
+    font-size: 3rem;
+    color: rgb(245, 246, 247);
+}
+.logo:active,
+.logo:hover {
+    color: #f79f09;
+    transition: all 0.3s;
+}
+/****************************/
+/*    NAVIGATION SECTION    */
+/****************************/
+/* .header {
+
+} */
+.main-nav-list {
+    display: flex;
+    list-style: none;
+    gap: 3.2rem;
+}
+.main-nav-link:link,
+.main-nav-link:visited {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 1.8rem;
+    transition: all 0.3s;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+    color: #0c0b0b;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+    padding: 1.2rem 3.2rem;
+    color: #fff;
+}
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+    color: #f79f09;
+}
+/* .primary-heading {
+    color: blue;
+} */
